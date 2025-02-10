@@ -36,5 +36,4 @@ public class LoansDto {
     @PositiveOrZero(message = "Total outstanding amount should be equal or greater than zero")
     @Schema(description = "Total outstanding amount against a loan", example = "99000")
     private int outstandingAmount;
-
 }
